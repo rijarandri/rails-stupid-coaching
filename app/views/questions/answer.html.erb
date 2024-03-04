@@ -1,9 +1,10 @@
 <%= params[:question] %>
-<p>You</p>
+<p>- You</p>
 
 <%= @answer %>
-<p>Your Coach</p>
+<p>- Your Coach</p>
 
 <br>
 
-<%= link_to "Ask a new question", ask_path %>
+<%= link_to "Ask a new question", ask_path, class:"btn btn-primary" %>
+<%# <button type="button" class="btn btn-primary">Ask a new question</button> %>
